@@ -5,7 +5,7 @@ angular.module("MyApp").service("dataService", function(){
 		state:"AL",
 		address: "123 Main St.",
 		date:"Alabama",
-		about: "35802",
+		about: "This is a real big ol' YardSale, Yall stop by! ",
 		},]
 	//method will get the names from nameArray and return them
 	this.getNames = function(){
