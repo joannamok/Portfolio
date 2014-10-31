@@ -3,7 +3,7 @@ angular.module("MyApp").service("dataService", function(){
 	var namesArray =[{
 		city:"Huntsville",
 		state:"AL",
-		address: "14021 Camden Cr., 35803",
+		address: "123 Main St.",
 		date:"Alabama",
 		about: "35802",
 		},]
