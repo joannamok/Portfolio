@@ -1,0 +1,19 @@
+				<section>
+					<!--list to pull names for nameArray-->
+					<ul>
+						<!--list item to hold names from nameArray-->
+						<li ng-repeat="saleItem in nameArray track by $index">
+							<!--will hold sumbmitted yardsale info-->
+							<!--Date: City, Sate-->
+							<h2><b id="date">{{saleItem.date}} :</b> {{saleItem.city}} , {{saleItem.state}}</h2>
+							<!--address-->
+							<p><b>Address: </b>{{saleItem.address}}</p>
+							<!--About sale-->
+							<p><b>About My Sale: </b> {{saleItem.about}}</p>
+							<!--button for edit-->
+							<a href="#/edit/{{$index}}"><button id="edit">Edit</button></a>
+							<!--button for delete sale-->
+							<button id="delete" ng-click="deleteName(saleItem)">X</button>
+						</li>
+					</ul>
+				</section>
