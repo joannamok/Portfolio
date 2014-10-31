@@ -3,8 +3,8 @@ angular.module("MyApp").service("dataService", function(){
 	var namesArray =[{
 		city:"Huntsville",
 		state:"AL",
-		address: "123 Main St.",
-		date:"Alabama",
+		address: "123 Main St., 35803",
+		date:"1/23/14",
 		about: "This is a real big ol' YardSale, Yall stop by! ",
 		},]
 	//method will get the names from nameArray and return them
