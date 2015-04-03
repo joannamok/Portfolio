@@ -1,0 +1,319 @@
+/*white: #FEFFFF*/
+/*blue : #72918B*/
+/*green : #9FB03E*/
+/*dark green: #3C3F36*/
+
+/************** MAIN STYLES **************************/
+/*page container*/
+.container{
+	clear:all;
+}
+/*body*/
+body{
+	color: #3C3F36;
+	background: #FEFFFF;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+/*h1, h2 tags*/
+h1,h2{
+	color: #72918B;
+}
+/*sub-headers*/
+h3,h4,h5{
+	color: #9FB03E;
+}
+/*main paragraph text*/
+main p{
+	font-size: 1em;
+	letter-spacing: 2px;
+}
+/*a links*/
+a{
+	color: #72918B;
+}
+/*buttons default*/
+.btn-default{
+	background: #72918B;
+	color:#FEFFFF;
+}
+/*buttons default hover*/
+.btn-default:hover{
+	background: #9FB03E;
+	color:#3C3F36;
+}
+/*footer section*/
+footer{
+	clear:both;
+}
+/*all headings container for accordian tab*/
+.panel-heading{
+	
+}
+/*a links inside of header titles*/
+.panel-heading a{
+	color: #FEFFFF; 
+}
+/*icons in accordion*/
+.panel-heading img{
+ 	padding-left:2%;
+}
+/*first accordion tab*/
+#headingOne{
+	background: #72918B;
+}
+/*second accordion tab*/
+#headingTwo{
+	background: #9FB03E;
+}
+/*third accordion tab*/
+#headingThree{
+	background: #3C3F36;
+}
+/*footer section*/
+footer{
+	margin-top:100px;
+	border-top: 2px solid #72918B;
+	padding-top:100px;
+}
+/*active bottom nav button in footer*/
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  color: #fff;
+  background-color: #72918B;
+}
+/*footer p*/
+footer p{
+	padding-top: 30px;
+}
+
+
+/***********************INDEX.HTML*******************************/
+
+/*main section*/
+#main{
+	margin:70px 0 100px 0;
+}
+/*main header*/
+#main h2{
+	color: #9FB03E;
+}
+/*main image container inside accordion 1 slide*/
+#accImg1{
+	margin-top: 30px;
+}
+/*buttons in acco tabs*/
+#accordion .btn-default{
+	margin-top:30px;
+}
+/*social media  acc title*/
+#sm h2{
+	color: #9FB03E;
+}
+/*button in Social Media Acc Tab*/
+#sm .btn-default{
+	background: #9FB03E;
+}
+/*button in Grafix Acc tab*/
+#gm .btn-default{
+	background: #3C3F36;
+}
+/*button in Grafix Acc tab on hover*/
+#gm .btn-default:hover{
+	background: #9FB03E;
+}
+/*grahics media  acc title*/
+#gm h2{
+	color: #3C3F36;
+}
+
+/****************WEBDESIGN.HTML**********************************************/
+/*parageaph fone for this page*/
+#web p{
+	font-size: 1.2em;
+}
+/*main article*/
+#webMain{
+	margin-top: 70px;
+} 
+/*main article img*/
+#webMain img{
+	padding: 3px;
+	margin: 10px;
+}
+/*example sites section*/
+#exPage{
+	margin-top: 100px;
+}
+/*rows in section of ex sites*/
+#exPage .row{
+	margin-top: 100px;
+	padding-bottom: 30px;
+	border-bottom: 3px solid #72918B;
+}
+/*ex section title*/
+#exPage h1{
+	font-size: 4em;
+	background: #72918B;
+	color: #FEFFFF;
+	padding: 7px;
+}
+/*subitles of ex section*/
+#exPage h3{
+	color: #72918B;
+}
+#exPage .row h3, #exPage .row p, #exPage .row .btn{
+	margin-bottom: 30px;
+}
+/*last articles ection*/
+#lastArt{
+	margin-top:100px;
+}
+/*title in last section*/
+#lastArt h2{
+	margin-bottom: 30px;
+}
+/*logo image in bottom of page*/
+#lastArt img{
+	margin-top: 30px;
+}
+
+/****************Media.HTML**********************************************/
+/*paragraph for for this page*/
+#med p{
+	font-size: 1.2em;
+}
+/*main article container*/
+#mmMain{
+	margin-top: 70px;
+}
+/*ex section title*/
+#med h1{
+	font-size: 4em;
+	background: #3C3F36;
+	color: #FEFFFF;
+	padding: 7px;
+}
+/*examples section*/
+#mmEx{
+	margin-top: 100px;
+}
+/*examples rows*/
+#mmEx .row{
+	margin-top: 100px;
+	padding-bottom: 30px;
+	border-bottom: 3px solid #3C3F36;
+}
+/*headers in example section*/
+#mmEx h3{
+	background: #3C3F36;
+	color: #FEFFFF;
+	padding: 10px;
+}
+/*paragraphs and headers in example section*/
+#mmEx p, #mmEx h3{
+	margin-bottom: 30px;
+}
+
+/******************************* GRAFIX.HTML ************************************************/
+/*paras in page*/
+#grafix p{
+	font-size: 1.2em;
+}
+/*main article container*/
+#gMain{
+	margin-top: 70px;
+}
+/*main image*/
+#gMain img{
+	margin-top: 30px;
+}
+/*examples section*/
+#gEx{
+	margin-top: 100px;
+}
+/*ex rows*/
+#gEx .row{
+	margin-top: 100px;
+	padding-bottom: 30px;
+	border-bottom: 3px solid #3C3F36;
+}
+/*headers in example section*/
+#gEx h3{
+	background: #3C3F36;
+	color: #FEFFFF;
+	padding: 10px;
+}
+/*paragraphs and headers in example section*/
+#gEx p, #gEx h3{
+	margin-bottom: 30px;
+}
+
+/************************************SOCAIL MARKETING.HTML*****************************************/
+/*paras in page*/
+#smPage p{
+	font-size: 1.2em;
+}
+/*main article container*/
+#smMain{
+	margin-top: 70px;
+}
+/*examples section*/
+#smEx{
+	margin-top: 100px;
+}
+/*ex section title*/
+#smEx h1{
+	font-size: 4em;
+	background: #9FB03E;
+	color: #FEFFFF;
+	padding: 7px;
+}
+/*ex rows*/
+#smEx .row{
+	margin-top: 100px;
+	padding-bottom: 30px;
+	border-bottom: 3px solid #9FB03E;
+}
+/*paragraphs and headers in example section*/
+#smEx p, #smEx h3{
+	margin-bottom: 30px;
+}
+
+/**************************ABOUT.ME**************************************************************************/
+/*main section*/
+#aboutMain{
+	margin-top: 30px;
+}
+/*page paragraphs*/
+#aboutPage p{
+	font-size: 1.3em;
+}
+/*page p, heading btn*/
+#aboutPage p,#aboutPage h1,#aboutPage h3,#aboutPage .btn{
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
